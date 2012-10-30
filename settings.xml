@@ -1,0 +1,5 @@
+<configuration>
+	<ant>
+		<location>/usr/local/ant/bin/ant</location>
+	</ant>
+</configuration>
