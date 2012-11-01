@@ -239,7 +239,7 @@
 			[statusTextView setStringValue:@""];
 			[statusTextView setStringValue:@"BuildOnSave:\nLooking for build.xml"]; 
 			
-			NSString *workingDir = [[NSString alloc] initWithString:@"/Users/eric/documents/development/playing/anttest"];
+			NSString *workingDir = [[NSString alloc] initWithString:[ctextView siteLocalPath]];
 			
 			NSTask *ant = [[NSTask alloc]init];
 			NSPipe *pipe = [NSPipe pipe];
@@ -249,7 +249,7 @@
 			[ant setStandardOutput:pipe];
 			[ant setLaunchPath:[self antPath]];
 			[ant setCurrentDirectoryPath:workingDir];
-			[ant setArguments:[NSArray arrayWithObject:@"mynewtarget"]];
+			//[ant setArguments:[NSArray arrayWithObject:@"mynewtarget"]];
 			[ant launch];
 			
 			//read the data from the task

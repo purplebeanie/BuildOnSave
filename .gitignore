@@ -24,3 +24,5 @@ build,
 *.perspectivev*,
 *.xcworkspace,
 xcuserdata
+/BuildOnSave.xcodeproj/eric.mode1v3
+/BuildOnSave.xcodeproj/eric.pbxuser
