@@ -16,10 +16,8 @@
 /English.lproj/ZapDialog.nib/.svn/text-base/keyedobjects.nib.svn-base
 /English.lproj/ZapDialog.nib/designable.nib
 /English.lproj/ZapDialog.nib/keyedobjects.nib
-/BuildOnSave.xcodeproj/project.pbxproj
 *.pbxuser,
 *.mode*,
-build,
 .DS_Store,
 *.perspectivev*,
 *.xcworkspace,
